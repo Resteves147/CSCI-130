@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title> Rodrigo - Portfolio</title>
+    <meta name="description" content="Personal bio and portfolio for Rodrigo" />
+    <link rel="stylesheet" href="style.css">
+    <!------------import fonts later-->
+    </head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    
+<body>
+    <a href="#main" class="skip-link">Skip to main content</a>
+
+    <header class="name">
+        <h1>Rodrigo Esteves</h1>
+        <p class="tagline">Fresno State Student, Developer & UI Designer</p>
+
+        <nav class="navigation">
+                <ul class="navbar">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main id="main">
+        <div class="container">
+            <section id="Sidebar">
+                <figure>
+                    <img src="photo.jpeg" alt="Portrait of Rodrigo" width="240" height="240"/>
+                    <figcaption>Rodrigo Esteves</figcaption>
+                </figure>
+                <section id="bio">
+                    <h2>Info</h2>
+                    <ul>
+                        <li><strong>Location:</strong> Hanford, CA</li>
+                        <li><strong>School/Company:</strong> Fresno State University</li>
+                        <li><strong>Interests:</strong> Web Development, Software Engineering, and Machine Learning</li>
+                    </ul>
+                </section>
+                <section id="skills">
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C/C++</li>
+                        <li>Python</li>
+                        <li>SQL</li>
+                        <li>Git/GitHub</li>
+                    </ul>
+                </section>
+                <section id="contact">
+                    <h2>Contact</h2>
+                        <!-- You’ll add a real form and validation in a later lab; for now, simple links/info -->
+                    <address>
+                        <!-- Replace with your email -->
+                        <p>Email: <a href="mailto:resteves147@mail.fresnostate.edu">resteves147@mail.fresnostate.edu</a></p>
+                        <p>Location: Hanford, CA</p>
+                    </address>
+                
+                    <ul>
+                        <!-- Replace # with your profiles or remove items you don’t use -->
+                        <li><a href="https://github.com/resteves147" target="_blank" rel="noopener">GitHub</a></li>
+                        <li><a href="https://www.linkedin.com/in/rodrigo-esteves-138324214/" target="_blank" rel="noopener">LinkedIn</a></li>
+                    </ul>
+                </section>
+            </section>
+            <!----This is the end of the Sidebar----->
+            <section id="About">
+                <h2>About</h2>
+                    <p>
+                        <!-- TODO: Write 2–3 sentences about yourself -->
+                        I'm a Senior who enjoys building web apps and learning modern tooling.
+                        Currently interested in accessibility, performance, and clean UI.
+                    </p>
+                <section id="Projects">
+                    <h2>Projects</h2>
+                        <!-- Duplicate or remove articles as needed -->
+                    <article>
+                        <h3>TuneShare, a music social media platform</h3>
+                            <p>
+                            <!-- Brief description -->
+                            This social media platform allows users to create an account, login, and post content.
+                            This project was created using HTML, CSS, JavaScript, Node.js, React, and MongoDB.
+                            This project was created in a group of 4 students.
+                            My role was to have a summary and details of the project in which we were creating. 
+                            I was also responsible for the front-end development of the project.
+                            </p>
+                            <!-- Replace # with a real URL when available -->
+                            <a href="https://github.com/angel908fs/tuneshare" target="_blank" rel="noopener">View project</a>
+                            </p>
+                            <button id="show-projects">Show Projects in Console</button>
+                    </article>
+
+                    <article>
+                        <h3>Finance Tracker, a finance tracking app</h3>
+                            <p>
+                            This finance tracking app allows users to track their income and expenses.
+                            This project was created using HTML, CSS, JavaScript, Node.js, React, and MongoDB.
+                            This project was created in a group of 4 students.
+                            My role was to have a summary and details of the project in which we were creating.
+                            I was also responsible for the front-end development of the project.
+                            </p>
+                            <button id="show-projects">Show Projects in Console</button>
+                    </article>
+                </section>
+            </section>
+            </div>
+        <footer>
+            <p>&copy; 2025 Rodrigo Esteves</p>
+        </footer>
+        <script src="projects.js"></script>
+</body>
+</html>

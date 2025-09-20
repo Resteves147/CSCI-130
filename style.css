@@ -1,0 +1,90 @@
+/*--------------- HEADER  --------------*/
+body h1{ /*element*/
+    font-family: Oswald;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.name{ /*class*/
+    background-color: rgb(152, 169, 236);
+    padding: 3%;
+    margin: 0;
+}
+.tagline{
+    text-align: center;
+    font-family: lato;
+    font-size: large;
+    margin-top: 0;
+}
+.navbar{
+    list-style: circle; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar a{ /*descendant*/
+    color: black;
+    font-size: large;
+    transition: background .3s ease;
+}
+.navbar a:hover{
+    color: purple;
+    border-radius: 4px;
+}
+/*--------------- BODY  --------------*/
+.container{
+    display: flex;
+    align-items: flex-start;
+}
+#Sidebar{ /*ID*/
+    flex: 0;
+}
+#About{
+    flex: 2;
+}
+h2{
+    font-family: Oswald;
+}
+h3{
+    font-family: lato;
+}
+figure{ /* need to remove margin for photo*/
+    margin:0;
+    margin-top: 5%;
+    padding:0;
+}
+img{
+    border-radius: 8px; /*makes it square, btw percentage makes circle */
+    margin-left: 0;
+    padding: 0;
+}
+#About h2{
+    text-align: center;
+}
+#About p{
+    padding: 2% 
+}
+article{
+    margin: 2px;
+}
+#About h3{
+    text-align: center;
+}
+#Projects a{
+    display: block;
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+@media (screen) {
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar{
+        flex-direction:column;
+
+    }
+}
